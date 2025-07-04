@@ -13,6 +13,8 @@ AI Caption Generator is a powerful tool designed to automatically generate engag
 
 ## Demo
 
+Try it out here: https://ai-caption-generator-ibm.streamlit.app/
+
 <img width="1470" alt="Screenshot 2025-07-03 at 11 16 35 PM" src="https://github.com/user-attachments/assets/39e6444c-a9c2-48d9-a82a-b855b1805c55" />
 <img width="1470" alt="Screenshot 2025-07-03 at 11 16 42 PM" src="https://github.com/user-attachments/assets/44ebbfee-c524-4c09-b453-9806d43357f8" />
 
@@ -65,17 +67,9 @@ Send a POST request to `/api/generate` with your image and options.
 - **Caption Style:** Choose from various preset styles or add your own.
 - **Language Support:** Set preferred output language.
 
-## Contributing
-
-We welcome contributions! Please check [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for more information.
 
 ## Acknowledgments
 
-- OpenAI for AI models
 - Community contributors
 
 ---
