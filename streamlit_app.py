@@ -23,7 +23,7 @@ def generate_caption_with_gemini(image_base64, tone='default'):
     prompt = tone_prompts.get(tone, tone_prompts['default'])
 
     try:
-        url = "https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent"
+        url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
         headers = {
             "Content-Type": "application/json",
             "x-goog-api-key": GEMINI_API_KEY
